@@ -34,6 +34,7 @@ public class Settings : MonoBehaviour
             invalidInputErrorText.SetActive(false);
             sv.timePerMove = timePerMoveFloat;
             control.ResetButtonPressed();
+            PanelClose();
         }
         else
         {

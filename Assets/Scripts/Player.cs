@@ -13,8 +13,9 @@ public class Player : MonoBehaviour
 
     public Toggle timePerPlayerToggle;
 
-    float remainingTime;
-    bool timerIsRunning = false;
+    [HideInInspector] public float remainingTime; //Accessed by Visuals
+    [HideInInspector] public bool timerIsRunning = false;
+
     bool moveCounted = false;
 
     int moves = 0;
@@ -45,11 +46,7 @@ public class Player : MonoBehaviour
             }
             DisplayTime(remainingTime);
         }
-        else
-        {
-
-        }
-
+        
     }
 
 
