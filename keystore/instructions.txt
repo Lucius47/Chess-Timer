@@ -1,0 +1,7 @@
+keystore: user.keystore
+password: pass001
+
+alias:
+key
+keystore1
+password: pass002
